@@ -14,7 +14,7 @@ This is a simple colection of snippet for usage with React and Redux using ES6 a
 import React, { Component } from 'react'
 
 export default class $1 extends Component {
-  render () { 
+  render () {
     return (
       <div>$2</div>
     )
@@ -185,10 +185,9 @@ export const $1 = $2 => {
 | `ptsh→`  | PropTypes.shape({color: PropTypes.string, fontSize: PropTypes.number}), |
 | `ptshr→` | PropTypes.shape({color: PropTypes.string, fontSize: PropTypes.number}).isRequired, |
 
-
 ## Requirements
 
-```
+``` console
 npm install standard --save-dev
 npm install prop-types --save
 ```
