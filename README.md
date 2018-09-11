@@ -6,6 +6,8 @@ This is a simple colection of snippet for usage with React and Redux using ES6 a
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.png)](https://github.com/standard/standard)
 
+### React
+
 | Command | Description |
 | --- | --- |
 | `rcc→` | Create a React Component Class |
@@ -87,6 +89,8 @@ export default $1
 
 ```
 
+### Redux
+
 | Command | Description |
 | --- | --- |
 | `rrcc→` | Create a Redux Container with connect and bindActionCreators |
@@ -147,12 +151,14 @@ export const $1 = $2 => {
 
 > Why?: Many popular extensions utilize superfluous snippets. This is tiny with minimium requirements and the only one with correct Standard JS.
 
-## Utilities
+### Utilities
 
 | Command | Description |
 | --- | --- |
 | `tp→` | this.props |
 | `ts→` | this.state |
+
+### Prop-types
 
 | Command  | Description |
 | --- | --- |
@@ -193,6 +199,10 @@ npm install prop-types --save
 ```
 
 ## Release Notes
+
+### 0.0.4
+
+Better categories in README.md
 
 ### 0.0.3
 
