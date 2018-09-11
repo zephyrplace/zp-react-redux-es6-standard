@@ -4,7 +4,7 @@ This is a simple colection of snippet for usage with React and Redux using ES6 a
 
 ## Features
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.png)](https://github.com/standard/standard)
 
 | Command | Description |
 | --- | --- |
