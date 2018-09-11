@@ -1,6 +1,7 @@
 {
     "name": "zp-react-redux-es6-standard",
     "displayName": "zp-react-redux-es6-standard",
+    "icon": "images/logo_128.png",
     "repository": {
         "url": "https://github.com/zephyrplace/zp-react-redux-es6-standard",
         "type": "github"
