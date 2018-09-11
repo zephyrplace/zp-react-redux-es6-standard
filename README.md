@@ -207,5 +207,9 @@ Update logo
 
 Initial release of the main snippets usage at Zephyrplace
 
+## References
+
+* [vscode-react-standard](https://github.com/TimonVS/vscode-react-standard/)
+
 ***
 ![Zephyrplace](https://avatars0.githubusercontent.com/u/17429557?s=200&v=4)
