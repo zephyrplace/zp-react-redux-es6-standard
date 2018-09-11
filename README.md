@@ -8,7 +8,7 @@ This is a simple colection of snippet for usage with React and Redux using ES6 a
 
 | Command | Description |
 | --- | --- |
-| rcc | Create a React Component Class |
+| `rcc→` | Create a React Component Class |
 
 ``` javascript
 import React, { Component } from 'react'
@@ -25,7 +25,7 @@ export default class $1 extends Component {
 
 | Command | Description |
 | --- | --- |
-| rcs | Create a React Component Stateless |
+| `rcs→` | Create a React Component Stateless |
 
 ``` javascript
 import React from 'react'
@@ -42,7 +42,7 @@ export default $1
 
 | Command | Description |
 | --- | --- |
-| rccp | Create a React Component Class with PropTypes |
+| `rccp→` | Create a React Component Class with PropTypes |
 
 ``` javascript
 import React, { Component } from 'react'
@@ -67,7 +67,7 @@ export default $1
 
 | Command | Description |
 | --- | --- |
-| rcsp | Create a React Component Class with PropTypes |
+| `rcsp→` | Create a React Component Class with PropTypes |
 
 ``` javascript
 import React from 'react'
@@ -89,7 +89,7 @@ export default $1
 
 | Command | Description |
 | --- | --- |
-| rrcc | Create a Redux Container with connect and bindActionCreators |
+| `rrcc→` | Create a Redux Container with connect and bindActionCreators |
 
 ``` javascript
 import { bindActionCreators } from 'redux'
@@ -104,7 +104,7 @@ export default connect(mapStateToProps, mapDispatchToProps)($4)
 
 | Command | Description |
 | --- | --- |
-| rrdc | Create a Redux Reducer |
+| `rrdc→` | Create a Redux Reducer |
 
 ``` javascript
 export default (state = $1, action) => {
@@ -120,7 +120,7 @@ export default (state = $1, action) => {
 
 | Command | Description |
 | --- | --- |
-| raf | Create a Redux action function |
+| `raf→` | Create a Redux action function |
 
 ``` javascript
 export const $1 = '$1'
@@ -134,10 +134,10 @@ export const $2 = $3 => ({
 
 | Command | Description |
 | --- | --- |
-| rafr | Create a Redux action function with return |
+| `rafr→` | Create a Redux action function with return |
 
 ``` javascript
-export function $1 ($2) {
+export const $1 = $2 => {
   return $3
 }
 
@@ -145,7 +145,46 @@ export function $1 ($2) {
 
 ![feature X](images/vsc-ext.gif)
 
-> Why?: Many popular extensions utilize superfluous snippets. This is tiny with minimium requirements and the only one with correct Standard JS. 
+> Why?: Many popular extensions utilize superfluous snippets. This is tiny with minimium requirements and the only one with correct Standard JS.
+
+## Utilities
+
+| Command | Description |
+| --- | --- |
+| `tp→` | this.props |
+| `ts→` | this.state |
+
+| Command  | Description |
+| --- | --- |
+| `pta→`   | PropTypes.array, |
+| `ptar→`  | PropTypes.array.isRequired, |
+| `ptb→`   | PropTypes.bool, |
+| `ptbr→`  | PropTypes.bool.isRequired, |
+| `ptf→`   | PropTypes.func, |
+| `ptfr→`  | PropTypes.func.isRequired, |
+| `ptn→`   | PropTypes.number, |
+| `ptnr→`  | PropTypes.number.isRequired, |
+| `pto→`   | PropTypes.object., |
+| `ptor→`  | PropTypes.object.isRequired, |
+| `pts→`   | PropTypes.string, |
+| `ptsr→`  | PropTypes.string.isRequired, |
+| `ptnd→`  | PropTypes.node, |
+| `ptndr→` | PropTypes.node.isRequired, |
+| `ptel→`  | PropTypes.element, |
+| `ptelr→` | PropTypes.element.isRequired, |
+| `pti→`   | PropTypes.instanceOf(ClassName), |
+| `ptir→`  | PropTypes.instanceOf(ClassName).isRequired, |
+| `pte→`   | PropTypes.oneOf(['News', 'Photos']), |
+| `pter→`  | PropTypes.oneOf(['News', 'Photos']).isRequired, |
+| `ptet→`  | PropTypes.oneOfType([PropTypes.string, PropTypes.number]), |
+| `ptetr→` | PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired, |
+| `ptao→`  | PropTypes.arrayOf(PropTypes.number), |
+| `ptaor→` | PropTypes.arrayOf(PropTypes.number).isRequired, |
+| `ptoo→`  | PropTypes.objectOf(PropTypes.number), |
+| `ptoor→` | PropTypes.objectOf(PropTypes.number).isRequired, |
+| `ptsh→`  | PropTypes.shape({color: PropTypes.string, fontSize: PropTypes.number}), |
+| `ptshr→` | PropTypes.shape({color: PropTypes.string, fontSize: PropTypes.number}).isRequired, |
+
 
 ## Requirements
 
@@ -156,7 +195,15 @@ npm install prop-types --save
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.3
+
+New utilities snippets and update Redux action function with return
+
+### 0.0.2
+
+Update logo
+
+### 0.0.1
 
 Initial release of the main snippets usage at Zephyrplace
 
