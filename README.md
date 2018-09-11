@@ -1,6 +1,6 @@
 # zp-react-redux-es6-standard
 
-This is a simple colection of snippet for usage with React and Redux using ES6 and standard being using at Zeplyrplace.
+This is a simple colection of snippet for usage with React and Redux using ES6 and standard being using at Zephyr Place.
 
 ## Features
 
@@ -200,6 +200,10 @@ npm install prop-types --save
 
 ## Release Notes
 
+### 0.0.5
+
+Fix misstype Zephyr Place in README.md
+
 ### 0.0.4
 
 Better categories in README.md
@@ -214,11 +218,11 @@ Update logo
 
 ### 0.0.1
 
-Initial release of the main snippets usage at Zephyrplace
+Initial release of the main snippets usage at Zephyr Place
 
 ## References
 
 * [vscode-react-standard](https://github.com/TimonVS/vscode-react-standard/)
 
 ***
-![Zephyrplace](https://avatars0.githubusercontent.com/u/17429557?s=200&v=4)
+![Zephyr Place](https://avatars0.githubusercontent.com/u/17429557?s=200&v=4)
